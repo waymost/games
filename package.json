@@ -8,6 +8,7 @@
   "license": "MIT",
   "scripts": {
     "prepare": "node ./generateIndex.js",
+    "publish": "yarn publish --access public",
     "test": "run-p validate",
     "validate": "run-s validate:tiles validate:games",
     "validate:tiles": "18xx-schemas tiles/*.json",
