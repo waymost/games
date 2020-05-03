@@ -10,7 +10,7 @@ const games = {
 {{/each}}
 };
 
-const public = {
+const publicGames = {
 {{#each public_games}}
   "{{name}}": game_{{#if group}}{{group}}_{{/if}}{{object}}{{#unless @last}},{{/unless}}
 {{/each}}
@@ -18,6 +18,6 @@ const public = {
 
 module.exports = {
   games,
-  public,
+  public: publicGames,
   tiles
 };
