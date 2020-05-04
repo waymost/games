@@ -569,7 +569,7 @@
     ],
     "terrain": [
       {
-        "cost": 40,
+        "cost": "40",
         "size": "tiny",
         "x": -50,
         "y": -20
@@ -632,7 +632,7 @@
       {
         "angle": 150,
         "percent": 0.85,
-        "cost": 80,
+        "cost": "80",
         "size": "tiny"
       }
     ],
