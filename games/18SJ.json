@@ -601,6 +601,24 @@
         "color": "brown",
         "description": "Players may purchase any number of shares of this corporation in one stock action"
       }
+    ],
+    "ledges": [
+      {
+        "color": "red",
+        "coords": [
+          "5 0",
+          "5 1",
+          "6 1",
+          "6 2",
+          "7 2",
+          "7 3",
+          "8 3",
+          "8 4",
+          "9 4",
+          "9 5",
+          "10 5"
+        ]
+      }
     ]
   },
   "tiles": {
@@ -1988,40 +2006,6 @@
       },
       {
         "color": "white",
-        "removeBorders": [4, 5, 6],
-        "labels": [
-          {
-            "y": -25,
-            "label": "Ö - V"
-          }
-        ],
-        "routeBonus": [
-          {
-            "value": "+120",
-            "size": 16
-          }
-        ],
-        "hexes": ["G16"]
-      },
-      {
-        "color": "white",
-        "removeBorders": [1, 4, 5, 6],
-        "labels": [
-          {
-            "y": -25,
-            "label": "Ö - K"
-          }
-        ],
-        "routeBonus": [
-          {
-            "value": "+100",
-            "size": 16
-          }
-        ],
-        "hexes": ["G18"]
-      },
-      {
-        "color": "white",
         "removeBorders": [1, 4, 5, 6],
         "labels": [
           {
@@ -2033,28 +2017,24 @@
           {
             "x": -30,
             "fillColor": "yellow",
-            "value": "+50",
-            "size": 16
+            "value": "+50"
           },
           {
             "x": 30,
             "fillColor": "green",
-            "value": "+50",
-            "size": 16
+            "value": "+50"
           },
           {
             "x": -30,
             "y": 30,
             "fillColor": "brown",
-            "value": "+30",
-            "size": 16
+            "value": "+30"
           },
           {
             "x": 30,
             "y": 30,
             "fillColor": "gray",
-            "value": "-",
-            "size": 16
+            "value": "-"
           }
         ],
         "hexes": ["G20"]
@@ -2070,11 +2050,42 @@
         ],
         "routeBonus": [
           {
-            "value": "+100",
-            "size": 16
+            "value": "+100"
           }
         ],
         "hexes": ["G22"]
+      },
+      {
+        "color": "white",
+        "removeBorders": [4, 5, 6],
+        "labels": [
+          {
+            "y": -25,
+            "label": "Ö - V"
+          }
+        ],
+        "routeBonus": [
+          {
+            "value": "+120"
+          }
+        ],
+        "hexes": ["G16"]
+      },
+      {
+        "color": "white",
+        "removeBorders": [1, 4, 5, 6],
+        "labels": [
+          {
+            "y": -25,
+            "label": "Ö - K"
+          }
+        ],
+        "routeBonus": [
+          {
+            "value": "+100"
+          }
+        ],
+        "hexes": ["G18"]
       },
       {
         "color": "white",
@@ -2087,8 +2098,7 @@
         ],
         "routeBonus": [
           {
-            "value": "+50",
-            "size": 16
+            "value": "+50"
           }
         ],
         "hexes": ["H17"]
@@ -2105,8 +2115,7 @@
         ],
         "routeBonus": [
           {
-            "value": "+75",
-            "size": 16
+            "value": "+75"
           }
         ],
         "hexes": ["H19"]
@@ -2122,8 +2131,7 @@
         ],
         "routeBonus": [
           {
-            "value": "+50",
-            "size": 16
+            "value": "+50"
           }
         ],
         "hexes": ["H21"]
@@ -2140,8 +2148,7 @@
         ],
         "routeBonus": [
           {
-            "value": "+100",
-            "size": 16
+            "value": "+100"
           }
         ],
         "hexes": ["H23"]
