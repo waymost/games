@@ -734,7 +734,20 @@
     "122": 1,
     "123": 1,
     "124": 1,
-    "125": { "quantity": 4, "tile": "125|L" },
+    "125": {
+      "quantity": 4,
+      "color": "brown",
+      "labels": [{ "label": "L", "angle": 270, "percent": 0.87 }],
+      "values": [{ "angle": 210, "percent": 0.8, "value": 40 }],
+      "cities": [{ "size": 2 }],
+      "track": [
+        { "side": 2 },
+        { "side": 3 },
+        { "side": 4 },
+        { "side": 5 },
+        { "side": 6 }
+      ]
+    },
     "126": 1,
     "127": 1
   },

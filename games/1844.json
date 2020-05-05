@@ -873,7 +873,13 @@
     "902": 1,
     "905": 1,
     "909|V1": 1,
-    "909|V2": 1,
+    "909|V2": {
+      "color": "brown",
+      "values": [{ "value": 50, "angle": 270, "percent": 0.88 }],
+      "labels": [{ "label": "Z", "angle": 90, "percent": 0.88 }],
+      "cities": [{ "size": 3 }],
+      "track": [{ "side": 1 }, { "side": 2 }, { "side": 3 }, { "side": 4 }]
+    },
 
     "64": 1,
     "65": 1,
