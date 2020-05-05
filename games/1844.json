@@ -1000,28 +1000,8 @@
       ],
       "track": [{ "type": "straight", "side": 1 }]
     },
-    "467": {
-      "quantity": 5,
-      "color": "none",
-      "tunnelEntrances": [
-        { "angle": 120, "rotation": 120, "percent": 1 },
-        { "angle": 300, "rotation": 300, "percent": 1 }
-      ],
-      "track": [
-        { "side": 3, "type": "straight", "gauge": "narrow", "offset": 0.5 }
-      ]
-    },
-    "468": {
-      "quantity": 5,
-      "color": "none",
-      "tunnelEntrances": [
-        { "angle": 120, "rotation": 120, "percent": 1 },
-        { "angle": 240, "rotation": 240, "percent": 1 }
-      ],
-      "track": [
-        { "side": 3, "type": "gentle", "gauge": "narrow", "offset": -1.5 }
-      ]
-    },
+    "467": 5,
+    "468": 5,
     "M80": {
       "quantity": 2,
       "color": "none",

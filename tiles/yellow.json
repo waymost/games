@@ -683,27 +683,11 @@
   },
   "470": {
     "color": "yellow",
-    "values": [
-      {
-        "angle": 300,
-        "percent": 0.667,
-        "value": 20
-      }
-    ],
+    "values": [{ "angle": 300, "percent": 0.667, "value": 20 }],
     "names": [
-      {
-        "name": "Copper Canyon",
-        "angle": 90,
-        "percent": 0.35,
-        "rotation": -45
-      }
+      { "name": "Copper Canyon", "angle": 90, "percent": 0.35, "rotation": -90 }
     ],
-    "towns": [
-      {
-        "percent": 0.667,
-        "rotate": 10
-      }
-    ],
+    "towns": [{ "percent": 0.667, "rotate": 10 }],
     "track": [
       {
         "side": 1,
@@ -884,153 +868,61 @@
   "630": {
     "color": "yellow",
     "values": [
-      {
-        "angle": 150,
-        "percent": 0.8,
-        "value": 10
-      },
-      {
-        "angle": -30,
-        "percent": 0.8,
-        "value": 10
-      }
+      { "angle": 90, "percent": 0.8, "value": 10 },
+      { "angle": 210, "percent": 0.8, "value": 10 }
     ],
     "towns": [
-      {
-        "angle": 90,
-        "percent": 0.57735,
-        "rotation": 0
-      },
-      {
-        "x": 129.90375,
-        "y": -75,
-        "rotate": -45,
-        "angle": 45,
-        "percent": 1.73
-      }
+      { "angle": 150, "percent": 0.57735, "rotation": 60 },
+      { "x": 129.90375, "y": 75, "rotate": 45, "angle": 135, "percent": 1.73 }
     ],
     "track": [
-      {
-        "type": "sharp",
-        "side": 2
-      },
-      {
-        "type": "gentle",
-        "side": 4
-      }
+      { "type": "sharp", "side": 3 },
+      { "type": "gentle", "side": 5 }
     ]
   },
   "631": {
     "color": "yellow",
     "values": [
-      {
-        "angle": 150,
-        "percent": 0.8,
-        "value": 10
-      },
-      {
-        "angle": -30,
-        "percent": 0.8,
-        "value": 10
-      }
+      { "angle": 270, "percent": 0.8, "value": 10 },
+      { "angle": 150, "percent": 0.8, "value": 10 }
     ],
     "towns": [
-      {
-        "angle": 30,
-        "percent": 0.57735,
-        "rotation": -60
-      },
-      {
-        "x": 129.90375,
-        "y": -75,
-        "rotate": -15,
-        "angle": 75,
-        "percent": 1.73
-      }
+      { "angle": 210, "percent": 0.57735, "rotation": -60 },
+      { "x": -129.90375, "y": 75, "rotate": -45, "angle": 225, "percent": 1.73 }
     ],
     "track": [
-      {
-        "type": "sharp",
-        "side": 1
-      },
-      {
-        "type": "gentle",
-        "side": 4
-      }
+      { "type": "sharp", "side": 4 },
+      { "type": "gentle", "side": 1 }
     ]
   },
   "632": {
     "color": "yellow",
     "values": [
-      {
-        "angle": 150,
-        "percent": 0.6,
-        "value": 10
-      },
-      {
-        "angle": 30,
-        "percent": 0.6,
-        "value": 10
-      }
+      { "angle": 150, "percent": 0.6, "value": 10 },
+      { "angle": 270, "percent": 0.6, "value": 10 }
     ],
     "towns": [
-      {
-        "angle": 210,
-        "percent": 0.57735,
-        "rotation": -60
-      },
-      {
-        "angle": 330,
-        "percent": 0.57735,
-        "rotation": 60
-      }
+      { "angle": 90, "percent": 0.57735, "rotation": 0 },
+      { "angle": 330, "percent": 0.57735, "rotation": 60 }
     ],
     "track": [
-      {
-        "type": "sharp",
-        "side": 4
-      },
-      {
-        "type": "sharp",
-        "side": 6
-      }
+      { "type": "sharp", "side": 2 },
+      { "type": "sharp", "side": 6 }
     ]
   },
   "633": {
     "color": "yellow",
     "values": [
-      {
-        "angle": 150,
-        "percent": 0.6,
-        "value": 10
-      },
-      {
-        "angle": -30,
-        "percent": 0.6,
-        "value": 10
-      }
+      { "angle": 150, "percent": 0.6, "value": 10 },
+      { "angle": -30, "percent": 0.6, "value": 10 }
     ],
     "towns": [
-      {
-        "angle": 210,
-        "percent": 0.57735,
-        "rotation": -60
-      },
-      {
-        "angle": 30,
-        "percent": 0.57735,
-        "rotation": -60
-      }
+      { "angle": 90, "percent": 0.57735, "rotation": 0 },
+      { "angle": 270, "percent": 0.57735, "rotation": 0 }
     ],
     "track": [
-      {
-        "type": "sharp",
-        "side": 1
-      },
-      {
-        "type": "sharp",
-        "side": 4
-      }
+      { "type": "sharp", "side": 2 },
+      { "type": "sharp", "side": 5 }
     ]
   },
   "644": {
@@ -1097,10 +989,10 @@
     "color": "yellow",
     "track": [
       {
-        "side": 1
+        "side": 5
       },
       {
-        "side": 3,
+        "side": 1,
         "gauge": "narrow"
       }
     ],
@@ -1117,10 +1009,10 @@
     "color": "yellow",
     "track": [
       {
-        "side": 1
+        "side": 6
       },
       {
-        "side": 2,
+        "side": 1,
         "gauge": "narrow"
       }
     ],
@@ -1142,16 +1034,16 @@
     ],
     "towns": [
       {
-        "angle": 30,
+        "angle": -30,
         "percent": 0.57735,
-        "rotation": -60
+        "rotation": 60
       }
     ],
     "track": [
       {
         "type": "sharp",
-        "side": 1,
-        "offset": -3,
+        "side": 6,
+        "offset": 3,
         "gauge": "narrow"
       }
     ]
