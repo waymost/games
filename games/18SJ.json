@@ -25,7 +25,8 @@
     },
     {
       "color": "white",
-      "icon": "steamboat"
+      "icon": "steamboat",
+      "quantity": 3
     },
     {
       "color": "white",
