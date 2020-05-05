@@ -1058,7 +1058,20 @@
     "190": 1,
     "191": 1,
     "193": 1,
-    "611|JC": 2
+    "611": {
+      "quantity": 2,
+      "color": "brown",
+      "values": [{ "angle": 210, "percent": 0.8, "value": 40 }],
+      "labels": [{ "angle": 154, "percent": 0.8, "label": "JC" }],
+      "cities": [{ "size": 2 }],
+      "track": [
+        { "side": 1 },
+        { "side": 2 },
+        { "side": 3 },
+        { "side": 4 },
+        { "side": 5 }
+      ]
+    }
   },
   "map": {
     "players": {

@@ -1255,7 +1255,14 @@
     "62": 2,
     "63": 32,
     "70": 8,
-    "124": { "tile": "X30", "quantity": 2 },
+    "124": {
+      "quantity": 2,
+      "color": "gray",
+      "values": [{ "angle": 270, "percent": 0.87, "value": 100 }],
+      "labels": [{ "size": 20, "label": "NY", "angle": 205, "percent": 0.84 }],
+      "cities": [{ "size": 4, "percent": 0.1 }],
+      "track": [{ "side": 2 }, { "side": 3 }, { "side": 4 }, { "side": 5 }]
+    },
     "125": 5,
     "131": 1,
     "170": 5,

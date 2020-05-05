@@ -682,10 +682,43 @@
     "68": 1,
     "69": 1,
     "70": 1,
-    "18340": 1,
-    "18341": 1,
-    "18342": 1,
-    "18343": 1
+    "18340": {
+      "color": "yellow",
+      "labels": [{ "label": "B", "angle": 150, "percent": 0.85 }],
+      "values": [{ "angle": 335, "percent": 0.825, "value": 30 }],
+      "cities": [{ "size": 1, "name": { "name": "Luxembourg" } }],
+      "track": [{ "side": 2 }]
+    },
+    "18341": {
+      "color": "green",
+      "values": [{ "angle": 335, "percent": 0.825, "value": 40 }],
+      "cities": [{ "name": { "name": "Antwerp" }, "size": 2 }],
+      "track": [{ "side": 2 }, { "side": 3 }]
+    },
+    "18342": {
+      "color": "brown",
+      "values": [{ "angle": 335, "percent": 0.85, "value": 60 }],
+      "cities": [
+        { "name": { "name": "Antwerp", "offset": 66.67, "y": -5 }, "size": 3 }
+      ],
+      "track": [{ "side": 2 }, { "side": 3 }, { "side": 4 }]
+    },
+    "18343": {
+      "color": "gray",
+      "values": [{ "angle": 90, "percent": 0.9, "value": 80 }],
+      "names": [
+        {
+          "name": "Antwerp",
+          "angle": -90,
+          "percent": 0.75,
+          "rotation": 45,
+          "y": 8,
+          "x": 10
+        }
+      ],
+      "cities": [{ "size": 4 }],
+      "track": [{ "side": 2 }, { "side": 3 }, { "side": 4 }, { "side": 5 }]
+    }
   },
   "map": {
     "hexes": [

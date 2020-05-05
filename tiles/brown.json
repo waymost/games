@@ -4719,37 +4719,6 @@
       }
     ]
   },
-  "18342": {
-    "color": "brown",
-    "values": [
-      {
-        "angle": 335,
-        "percent": 0.85,
-        "value": 60
-      }
-    ],
-    "cities": [
-      {
-        "name": {
-          "name": "Antwerp",
-          "offset": 66.67,
-          "y": -5
-        },
-        "size": 3
-      }
-    ],
-    "track": [
-      {
-        "side": 2
-      },
-      {
-        "side": 3
-      },
-      {
-        "side": 4
-      }
-    ]
-  },
   "485|a": {
     "color": "brown",
     "group": "485",
@@ -4757,16 +4726,8 @@
     "rotation": 60,
     "rotations": 1,
     "values": [
-      {
-        "value": 60,
-        "angle": 210,
-        "percent": 0.8
-      },
-      {
-        "value": 10,
-        "angle": 85,
-        "percent": 0.8
-      }
+      { "value": 60, "angle": 210, "percent": 0.8 },
+      { "value": 10, "angle": 85, "percent": 0.8 }
     ],
     "cities": [
       {
@@ -4775,15 +4736,8 @@
         "size": 2,
         "rotation": 30,
         "extend": "right",
-        "name": {
-          "name": "Mexico City"
-        },
-        "companies": [
-          {
-            "color": "green",
-            "label": "NdM"
-          }
-        ]
+        "name": { "name": "Mexico City" },
+        "companies": [{ "color": "green", "label": "NdM" }]
       }
     ],
     "towns": [
@@ -4791,27 +4745,15 @@
         "angle": 120,
         "percent": 0.65,
         "rotation": -60,
-        "name": {
-          "name": "Toluca"
-        }
+        "name": { "name": "Toluca" }
       }
     ],
     "track": [
-      {
-        "side": 1
-      },
-      {
-        "side": 2
-      },
-      {
-        "side": 3
-      },
-      {
-        "side": 4
-      },
-      {
-        "side": 6
-      }
+      { "side": 1 },
+      { "side": 2 },
+      { "side": 3 },
+      { "side": 4 },
+      { "side": 6 }
     ]
   },
   "485|b": {
@@ -4820,41 +4762,19 @@
     "mask": false,
     "rotation": 60,
     "rotations": 1,
-    "values": [
-      {
-        "value": 10,
-        "angle": 270,
-        "percent": 0.85
-      }
-    ],
-    "cities": [
-      {
-        "size": 2,
-        "angle": 120,
-        "percent": 1,
-        "rotation": 30
-      }
-    ],
+    "values": [{ "value": 10, "angle": 270, "percent": 0.85 }],
+    "cities": [{ "size": 2, "angle": 120, "percent": 1, "rotation": 30 }],
     "towns": [
       {
         "rotation": 120,
         "angle": 300,
         "percent": 0.5,
-        "name": {
-          "reverse": true,
-          "name": "Puebla"
-        }
+        "name": { "reverse": true, "name": "Puebla" }
       }
     ],
     "track": [
-      {
-        "side": 3,
-        "type": "gentle"
-      },
-      {
-        "side": 3,
-        "type": "straight"
-      }
+      { "side": 3, "type": "gentle" },
+      { "side": 3, "type": "straight" }
     ]
   },
   "486|a": {
@@ -4864,16 +4784,8 @@
     "rotation": 60,
     "rotations": 1,
     "values": [
-      {
-        "value": 50,
-        "angle": 210,
-        "percent": 0.8
-      },
-      {
-        "value": 10,
-        "angle": 85,
-        "percent": 0.8
-      }
+      { "value": 50, "angle": 210, "percent": 0.8 },
+      { "value": 10, "angle": 85, "percent": 0.8 }
     ],
     "cities": [
       {
@@ -4882,15 +4794,8 @@
         "size": 2,
         "rotation": 30,
         "extend": "right",
-        "name": {
-          "name": "Mexico City"
-        },
-        "companies": [
-          {
-            "color": "green",
-            "label": "NdM"
-          }
-        ]
+        "name": { "name": "Mexico City" },
+        "companies": [{ "color": "green", "label": "NdM" }]
       }
     ],
     "towns": [
@@ -4898,27 +4803,15 @@
         "angle": 120,
         "percent": 0.65,
         "rotation": -60,
-        "name": {
-          "name": "Toluca"
-        }
+        "name": { "name": "Toluca" }
       }
     ],
     "track": [
-      {
-        "side": 1
-      },
-      {
-        "side": 2
-      },
-      {
-        "side": 3
-      },
-      {
-        "side": 4
-      },
-      {
-        "side": 6
-      }
+      { "side": 1 },
+      { "side": 2 },
+      { "side": 3 },
+      { "side": 4 },
+      { "side": 6 }
     ]
   },
   "486|b": {
@@ -4927,13 +4820,7 @@
     "mask": false,
     "rotation": 60,
     "rotations": 1,
-    "values": [
-      {
-        "value": 10,
-        "angle": 265,
-        "percent": 0.82
-      }
-    ],
+    "values": [{ "value": 10, "angle": 265, "percent": 0.82 }],
     "cities": [
       {
         "angle": 120,
@@ -4948,590 +4835,12 @@
         "rotation": 120,
         "angle": 300,
         "percent": 0.6,
-        "name": {
-          "reverse": true,
-          "name": "Puebla"
-        }
+        "name": { "reverse": true, "name": "Puebla" }
       }
     ],
     "track": [
-      {
-        "side": 3,
-        "type": "gentle"
-      },
-      {
-        "side": 3,
-        "type": "straight"
-      }
-    ]
-  },
-  "611|JC": {
-    "color": "brown",
-    "values": [
-      {
-        "angle": 210,
-        "percent": 0.8,
-        "value": 40
-      }
-    ],
-    "labels": [
-      {
-        "angle": 154,
-        "percent": 0.8,
-        "label": "JC"
-      }
-    ],
-    "cities": [
-      {
-        "size": 2
-      }
-    ],
-    "track": [
-      {
-        "side": 1
-      },
-      {
-        "side": 2
-      },
-      {
-        "side": 3
-      },
-      {
-        "side": 4
-      },
-      {
-        "side": 5
-      }
-    ]
-  },
-  "61|BA": {
-    "color": "brown",
-    "values": [
-      {
-        "angle": 210,
-        "percent": 0.8,
-        "value": 60
-      }
-    ],
-    "names": [
-      {
-        "name": "Baltimore",
-        "rotate": 60,
-        "angle": 60,
-        "percent": 0.5
-      }
-    ],
-    "cities": [
-      {
-        "size": 1
-      }
-    ],
-    "track": [
-      {
-        "side": 1
-      },
-      {
-        "side": 3
-      },
-      {
-        "side": 4
-      },
-      {
-        "side": 5
-      }
-    ]
-  },
-  "997|BO": {
-    "color": "brown",
-    "values": [
-      {
-        "angle": 210,
-        "percent": 0.8,
-        "value": 60
-      }
-    ],
-    "cities": [
-      {
-        "size": 2,
-        "name": {
-          "name": "Boston",
-          "reverse": true,
-          "offset": 33
-        }
-      }
-    ],
-    "track": [
-      {
-        "side": 1
-      },
-      {
-        "side": 3
-      },
-      {
-        "side": 4
-      },
-      {
-        "side": 5
-      }
-    ]
-  },
-  "8871": {
-    "color": "brown",
-    "rotations": 1,
-    "centerTowns": [{}],
-    "values": [
-      {
-        "value": 20,
-        "angle": 210,
-        "percent": 0.8
-      }
-    ],
-    "track": [
-      {
-        "side": 1
-      },
-      {
-        "side": 2
-      },
-      {
-        "side": 3
-      },
-      {
-        "side": 4
-      },
-      {
-        "side": 5
-      },
-      {
-        "side": 6
-      }
-    ]
-  },
-  "8872": {
-    "color": "brown",
-    "cities": [
-      {
-        "size": 2,
-        "rotate": 180
-      }
-    ],
-    "values": [
-      {
-        "angle": 210,
-        "percent": 0.8,
-        "value": 50
-      }
-    ],
-    "labels": [
-      {
-        "angle": 150,
-        "percent": 0.8,
-        "label": "OO"
-      }
-    ],
-    "track": [
-      {
-        "side": 1
-      },
-      {
-        "side": 2
-      },
-      {
-        "side": 3
-      },
-      {
-        "side": 4
-      }
-    ]
-  },
-  "8873": {
-    "color": "brown",
-    "cities": [
-      {
-        "size": 2,
-        "rotate": 180
-      }
-    ],
-    "values": [
-      {
-        "angle": 210,
-        "percent": 0.8,
-        "value": 50
-      }
-    ],
-    "labels": [
-      {
-        "angle": 150,
-        "percent": 0.8,
-        "label": "OO"
-      }
-    ],
-    "track": [
-      {
-        "side": 1
-      },
-      {
-        "side": 5
-      },
-      {
-        "side": 3
-      },
-      {
-        "side": 4
-      }
-    ]
-  },
-  "8874": {
-    "color": "brown",
-    "rotations": 3,
-    "cities": [
-      {
-        "size": 2,
-        "rotate": 180
-      }
-    ],
-    "values": [
-      {
-        "angle": 210,
-        "percent": 0.8,
-        "value": 50
-      }
-    ],
-    "labels": [
-      {
-        "angle": 150,
-        "percent": 0.8,
-        "label": "OO"
-      }
-    ],
-    "track": [
-      {
-        "side": 1
-      },
-      {
-        "side": 2
-      },
-      {
-        "side": 5
-      },
-      {
-        "side": 4
-      }
-    ]
-  },
-  "8879": {
-    "color": "brown",
-    "cities": [
-      {
-        "size": 2,
-        "rotate": 180
-      }
-    ],
-    "values": [
-      {
-        "angle": 210,
-        "percent": 0.8,
-        "value": 60
-      }
-    ],
-    "labels": [
-      {
-        "angle": 150,
-        "percent": 0.8,
-        "label": "S"
-      }
-    ],
-    "track": [
-      {
-        "side": 1
-      },
-      {
-        "side": 2
-      },
-      {
-        "side": 3
-      },
-      {
-        "side": 4
-      },
-      {
-        "side": 5
-      }
-    ]
-  },
-  "8887": {
-    "color": "brown",
-    "rotations": 1,
-    "cities": [
-      {
-        "size": 6,
-        "rotation": -10
-      }
-    ],
-    "labels": [
-      {
-        "label": "B",
-        "angle": 320,
-        "percent": 0.22,
-        "size": 20
-      }
-    ],
-    "values": [
-      {
-        "value": 60,
-        "angle": 140,
-        "percent": 0.12
-      }
-    ],
-    "track": [
-      {
-        "side": 1
-      },
-      {
-        "side": 2
-      },
-      {
-        "side": 3
-      },
-      {
-        "side": 4
-      },
-      {
-        "side": 5
-      },
-      {
-        "side": 6
-      }
-    ]
-  },
-  "X5": {
-    "color": "brown",
-    "values": [
-      {
-        "angle": -30,
-        "percent": 0.75,
-        "value": 70
-      }
-    ],
-    "labels": [
-      {
-        "label": "M",
-        "angle": 210,
-        "percent": 0.8
-      }
-    ],
-    "cities": [
-      {
-        "rotation": 0,
-        "size": 2,
-        "angle": 270,
-        "percent": 0.4
-      },
-      {
-        "angle": 160,
-        "percent": 0.7
-      }
-    ],
-    "track": [
-      {
-        "side": 6,
-        "cross": "over"
-      },
-      {
-        "side": 2,
-        "cross": "over"
-      },
-      {
-        "side": 3,
-        "cross": "over"
-      },
-      {
-        "side": 4,
-        "cross": "under",
-        "type": "bent"
-      },
-      {
-        "side": 5,
-        "cross": "over"
-      }
-    ]
-  },
-  "X6": {
-    "color": "brown",
-    "values": [
-      {
-        "angle": -30,
-        "percent": 0.825,
-        "value": 70
-      }
-    ],
-    "labels": [
-      {
-        "label": "M",
-        "angle": 210,
-        "percent": 0.8
-      }
-    ],
-    "cities": [
-      {
-        "rotation": 90,
-        "size": 2,
-        "angle": 90,
-        "percent": 0.2
-      },
-      {
-        "angle": -90,
-        "percent": 0.6
-      }
-    ],
-    "track": [
-      {
-        "side": 1
-      },
-      {
-        "side": 2
-      },
-      {
-        "side": 3
-      },
-      {
-        "side": 4
-      },
-      {
-        "side": 5,
-        "type": "sharp"
-      }
-    ]
-  },
-  "X7": {
-    "color": "brown",
-    "values": [
-      {
-        "angle": 270,
-        "percent": 0.85,
-        "value": 70
-      }
-    ],
-    "labels": [
-      {
-        "label": "M",
-        "angle": 210,
-        "percent": 0.8
-      }
-    ],
-    "cities": [
-      {
-        "rotation": 0,
-        "size": 2,
-        "angle": 0,
-        "percent": 0.3
-      },
-      {
-        "angle": 130,
-        "percent": 0.65
-      }
-    ],
-    "track": [
-      {
-        "side": 1,
-        "cross": "over"
-      },
-      {
-        "side": 2,
-        "cross": "over"
-      },
-      {
-        "side": 3,
-        "type": "gentle",
-        "cross": "under"
-      },
-      {
-        "side": 4,
-        "cross": "over"
-      },
-      {
-        "side": 6,
-        "cross": "over"
-      }
-    ]
-  },
-  "X03": {
-    "color": "brown",
-    "centerTowns": [{}],
-    "values": [
-      {
-        "value": 60,
-        "angle": 210,
-        "percent": 0.8
-      }
-    ],
-    "track": [
-      {
-        "side": 1
-      },
-      {
-        "side": 2
-      },
-      {
-        "side": 3
-      },
-      {
-        "side": 4
-      },
-      {
-        "side": 5
-      },
-      {
-        "side": 6
-      }
-    ]
-  },
-  "X229": {
-    "color": "brown",
-    "values": [
-      {
-        "angle": 210,
-        "percent": 0.75,
-        "value": 0
-      }
-    ],
-    "names": [
-      {
-        "name": "£100",
-        "angle": 150,
-        "percent": 0.75
-      }
-    ],
-    "labels": [
-      {
-        "label": "EC",
-        "angle": 45,
-        "percent": 0.65
-      }
-    ],
-    "cities": [
-      {
-        "size": 2,
-        "rotate": 30
-      }
-    ],
-    "track": [
-      {
-        "side": 3
-      },
-      {
-        "side": 4
-      },
-      {
-        "side": 6,
-        "x": 3.5,
-        "y": -6.06217782649
-      },
-      {
-        "side": 6,
-        "x": -3.5,
-        "y": 6.06217782649
-      }
+      { "side": 3, "type": "gentle" },
+      { "side": 3, "type": "straight" }
     ]
   }
 }

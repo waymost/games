@@ -994,13 +994,49 @@
     "206": 1,
     "448": 2,
     "449": 2,
-    "121|BO": 1,
-    "53|BA": 1,
-    "61|BA": {
-      "rotations": [0, 240]
+    "121": {
+      "color": "green",
+      "rotations": 2,
+      "values": [{ "angle": 210, "percent": 0.8, "value": 50 }],
+      "cities": [
+        {
+          "size": 2,
+          "name": { "name": "Boston", "reverse": true, "offset": 33 }
+        }
+      ],
+      "track": [{ "side": 1 }, { "side": 3 }, { "side": 5 }]
     },
-    "997|BO": {
-      "rotations": [180, 300]
+    "53": {
+      "color": "green",
+      "rotations": 2,
+      "values": [{ "angle": 210, "percent": 0.8, "value": 50 }],
+      "names": [
+        { "name": "Baltimore", "rotate": 60, "angle": 60, "percent": 0.5 }
+      ],
+      "cities": [{ "size": 1 }],
+      "track": [{ "side": 1 }, { "side": 3 }, { "side": 5 }]
+    },
+    "61": {
+      "rotations": [0, 240],
+      "color": "brown",
+      "values": [{ "angle": 210, "percent": 0.8, "value": 60 }],
+      "names": [
+        { "name": "Baltimore", "rotate": 60, "angle": 60, "percent": 0.5 }
+      ],
+      "cities": [{ "size": 1 }],
+      "track": [{ "side": 1 }, { "side": 3 }, { "side": 4 }, { "side": 5 }]
+    },
+    "997": {
+      "rotations": [180, 300],
+      "color": "brown",
+      "values": [{ "angle": 210, "percent": 0.8, "value": 60 }],
+      "cities": [
+        {
+          "size": 2,
+          "name": { "name": "Boston", "reverse": true, "offset": 33 }
+        }
+      ],
+      "track": [{ "side": 1 }, { "side": 3 }, { "side": 4 }, { "side": 5 }]
     }
   },
   "map": {
