@@ -383,6 +383,19 @@
     "cities": [{ "size": 1 }],
     "track": [{ "side": 1 }, { "side": 3 }, { "side": 4 }, { "side": 5 }]
   },
+  "61Y": {
+    "color": "brown",
+    "rotations": 6,
+    "values": [{ "angle": 210, "percent": 0.8, "value": 60 }],
+    "labels": [{ "label": "Y", "angle": 150, "percent": 0.8 }],
+    "cities": [{ "size": 2 }],
+    "track": [
+      { "side": 1 },
+      { "side": 3 },
+      { "side": 4 },
+      { "side": 5 }
+    ]
+  },
   "62": {
     "color": "brown",
     "values": [{ "angle": 270, "percent": 0.8, "value": 80 }],
@@ -2383,19 +2396,6 @@
       { "type": "straight", "side": 3 }
     ]
   },
-  "795": {
-    "color": "brown",
-    "rotations": 1,
-    "values": [{ "angle": 270, "percent": 0.9, "value": 80 }],
-    "labels": [{ "label": "N", "angle": 90, "percent": 0.9 }],
-    "cities": [{ "rotate": 180, "size": 4 }],
-    "names": [{ "percent": 0.8, "name": "Ipswich", "fontSize": 14 }],
-    "track": [
-      { "type": "straight", "side": 2 },
-      { "type": "straight", "side": 3 },
-      { "side": 4 }
-    ]
-  },
   "796": {
     "color": "brown",
     "rotations": 3,
@@ -2403,23 +2403,6 @@
     "labels": [{ "label": "Y", "angle": 150, "percent": 0.8 }],
     "cities": [{ "size": 2 }],
     "track": [{ "type": "straight" }, { "type": "straight", "side": 2 }]
-  },
-  "797": {
-    "color": "brown",
-    "rotations": 1,
-    "values": [{ "angle": 270, "percent": 0.85, "value": 60 }],
-    "labels": [{ "label": "Y", "angle": 90, "percent": 0.85 }],
-    "cities": [{ "rotate": 120, "size": 2 }],
-    "names": [
-      {
-        "angle": 210,
-        "percent": 0.7,
-        "rotation": 30,
-        "name": "Harwich",
-        "fontSize": 14
-      }
-    ],
-    "track": [{ "type": "straight", "side": 3 }, { "side": 1 }]
   },
   "798": {
     "color": "brown",
@@ -2448,6 +2431,19 @@
       }
     ],
     "track": [{ "side": 1 }, { "side": 3 }, { "side": 4 }, { "side": 5 }]
+  },
+  "891Y": {
+    "color": "brown",
+    "rotations": 6,
+    "values": [{ "angle": 210, "percent": 0.8, "value": 60 }],
+    "labels": [{ "label": "Y", "angle": 150, "percent": 0.8 }],
+    "cities": [{ "size": 2 }],
+    "track": [
+      { "side": 1 },
+      { "side": 2 },
+      { "side": 3 },
+      { "side": 4 }
+    ]
   },
   "804": {
     "color": "brown",

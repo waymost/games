@@ -252,80 +252,9 @@
     "20": 6,
     "21": 2,
     "22": 2,
-    "53Y": {
-      "quantity": 4,
-      "color": "green",
-      "rotations": 2,
-      "values": [
-        {
-          "angle": 210,
-          "percent": 0.8,
-          "value": 50
-        }
-      ],
-      "labels": [
-        {
-          "label": "Y",
-          "angle": 150,
-          "percent": 0.8
-        }
-      ],
-      "cities": [
-        {
-          "size": 2
-        }
-      ],
-      "track": [
-        {
-          "side": 1
-        },
-        {
-          "side": 3
-        },
-        {
-          "side": 5
-        }
-      ]
-    },
+    "53Y": 4,
     "57": 12,
-    "61Y": {
-      "quantity": 3,
-      "color": "brown",
-      "rotations": 6,
-      "values": [
-        {
-          "angle": 210,
-          "percent": 0.8,
-          "value": 60
-        }
-      ],
-      "labels": [
-        {
-          "label": "Y",
-          "angle": 150,
-          "percent": 0.8
-        }
-      ],
-      "cities": [
-        {
-          "size": 2
-        }
-      ],
-      "track": [
-        {
-          "side": 1
-        },
-        {
-          "side": 3
-        },
-        {
-          "side": 4
-        },
-        {
-          "side": 5
-        }
-      ]
-    },
+    "61Y": 3,
     "201": 2,
     "202": 4,
     "611": 8,
@@ -339,45 +268,39 @@
     "792": 2,
     "793": 3,
     "794": 3,
-    "795": 1,
-    "796": 3,
-    "797": 1,
-    "798": 3,
-    "891Y": {
-      "quantity": 3,
+    "795": {
       "color": "brown",
-      "rotations": 6,
-      "values": [
-        {
-          "angle": 210,
-          "percent": 0.8,
-          "value": 60
-        }
-      ],
-      "labels": [
-        {
-          "label": "Y",
-          "angle": 150,
-          "percent": 0.8
-        }
-      ],
-      "cities": [
-        {
-          "size": 2
-        }
-      ],
+      "rotations": 1,
+      "values": [{ "angle": 270, "percent": 0.9, "value": 80 }],
+      "labels": [{ "label": "N", "angle": 90, "percent": 0.9 }],
+      "cities": [{ "rotate": 180, "size": 4 }],
+      "names": [{ "percent": 0.8, "name": "Ipswich", "fontSize": 14 }],
       "track": [
-        {
-          "type": "straight"
-        },
-        {
-          "side": 2
-        },
-        {
-          "side": 3
-        }
+        { "type": "straight", "side": 2 },
+        { "type": "straight", "side": 3 },
+        { "side": 4 }
       ]
     },
+    "796": 3,
+    "797": {
+      "color": "brown",
+      "rotations": 1,
+      "values": [{ "angle": 270, "percent": 0.85, "value": 60 }],
+      "labels": [{ "label": "Y", "angle": 90, "percent": 0.85 }],
+      "cities": [{ "rotate": 120, "size": 2 }],
+      "names": [
+        {
+          "angle": 210,
+          "percent": 0.7,
+          "rotation": 30,
+          "name": "Harwich",
+          "fontSize": 14
+        }
+      ],
+      "track": [{ "type": "straight", "side": 3 }, { "side": 1 }]
+    },
+    "798": 3,
+    "891Y": 3,
     "8850": {
       "quantity": 6,
       "color": "yellow",
