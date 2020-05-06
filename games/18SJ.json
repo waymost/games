@@ -25,7 +25,8 @@
     },
     {
       "color": "white",
-      "icon": "steamboat"
+      "icon": "steamboat",
+      "quantity": 3
     },
     {
       "color": "white",
@@ -2157,11 +2158,7 @@
     "borders": [
       {
         "color": "water",
-        "coords": ["C8p6", "C8p1"]
-      },
-      {
-        "color": "water",
-        "coords": ["C10p6", "C10p1", "C10p2"]
+        "coords": ["C8p1", "C8p6", "C10p1", "C10p6"]
       }
     ]
   }
