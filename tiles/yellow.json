@@ -224,18 +224,18 @@
   },
   "128": {
     "color": "yellow",
-    "labels": [{ "angle": 60, "label": "C", "percent": 0.5 }],
     "values": [
-      { "angle": 210, "percent": 0.8, "value": 40 },
-      { "angle": 270, "percent": 0.8, "value": 40 }
+      { "angle": 300, "percent": 0.7, "value": 40 },
+      { "angle": 180, "percent": 0.7, "value": 40 }
     ],
+    "labels": [{ "angle": 240, "percent": 0.5, "label": "C" }],
     "cities": [
-      { "angle": 150, "percent": 0.5 },
-      { "angle": 330, "percent": 0.5 }
+      { "angle": 0, "percent": 0.5 },
+      { "angle": 120, "percent": 0.5 }
     ],
     "track": [
-      { "side": 3, "type": "sharpStop" },
-      { "side": 1, "type": "sharpStopRev" }
+      { "type": "stop", "side": 1 },
+      { "type": "stop", "side": 3 }
     ]
   },
   "201": {
