@@ -4684,12 +4684,12 @@
   "791": {
     "color": "green",
     "rotations": 6,
-    "values": [{ "angle": 215, "percent": 0.85, "value": 60 }],
-    "labels": [{ "label": "N", "angle": 145, "percent": 0.85 }],
-    "cities": [{ "size": 3 }],
+    "values": [{ "angle": 270, "percent": 0.85, "value": 60 }],
+    "labels": [{ "label": "N", "angle": 90, "percent": 0.85 }],
+    "cities": [{ "size": 3, "rotate": 180 }],
     "track": [
       { "side": 1 },
-      { "side": 3 },
+      { "side": 2 },
       { "side": 4 },
       { "side": 5 },
       { "side": 6 }
