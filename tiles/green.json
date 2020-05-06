@@ -1233,7 +1233,7 @@
       { "value": 20, "angle": 315, "percent": 0.7 }
     ],
     "names": [{ "name": "Veracruz", "angle": 240, "percent": 0.667 }],
-    "cities": [{ "size": 2, "rotate": 90, "angle": 30, "percent": 0.2 }],
+    "cities": [{ "size": 2, "angle": 90, "percent": 0.3 }],
     "towns": [{ "angle": 270, "percent": 0.58, "rotation": 90 }],
     "track": [{ "side": 5.5, "type": "mid" }, { "side": 1 }, { "side": 3 }]
   },
