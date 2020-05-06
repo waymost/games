@@ -20,3 +20,5 @@ We're going to try to keep tiles in this repo consistant with a standard.
 - When a tile is in a chicken foot configuration (like 19 or 619) prefer to use
   sides 1,3,4,5 (This should correspond with the keeping straights on sides
   1-4).
+- Track coming from the lower side should be "over" and the other track should
+  be "under" when applicable.
