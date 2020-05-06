@@ -4684,15 +4684,36 @@
   "791": {
     "color": "green",
     "rotations": 6,
-    "values": [{ "angle": 270, "percent": 0.85, "value": 60 }],
-    "labels": [{ "label": "N", "angle": 90, "percent": 0.85 }],
-    "cities": [{ "size": 3, "rotate": 180 }],
+    "values": [
+      {
+        "angle": 215,
+        "percent": 0.85,
+        "value": 60
+      }
+    ],
+    "labels": [
+      {
+        "label": "N",
+        "angle": 145,
+        "percent": 0.85
+      }
+    ],
+    "cities": [
+      {
+        "size": 3
+      }
+    ],
     "track": [
-      { "side": 1 },
-      { "side": 2 },
-      { "side": 4 },
-      { "side": 5 },
-      { "side": 6 }
+      {
+        "type": "straight"
+      },
+      {
+        "type": "straight",
+        "side": 2
+      },
+      {
+        "side": 3
+      }
     ]
   },
   "792": {

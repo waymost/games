@@ -382,15 +382,15 @@
       "quantity": 6,
       "color": "yellow",
       "values": [{ "value": 20 }],
-      "centerTowns": [{ "angle": -30, "percent": 0.57735 }],
-      "track": [{ "type": "sharp", "side": 6 }]
+      "centerTowns": [{ "angle": 30, "percent": 0.57735, "rotation": -60 }],
+      "track": [{ "type": "sharp", "side": 1 }]
     },
     "8851": {
       "quantity": 8,
       "color": "yellow",
-      "values": [{ "angle": 120, "percent": 0.2, "value": 20 }],
-      "centerTowns": [{ "angle": -60, "percent": 0.28 }],
-      "track": [{ "type": "gentle", "side": 5 }]
+      "values": [{ "angle": -120, "percent": 0.2, "value": 20 }],
+      "centerTowns": [{ "angle": 60, "percent": 0.28, "rotate": -30 }],
+      "track": [{ "type": "gentle", "side": 1 }]
     },
     "8852": {
       "quantity": 12,
