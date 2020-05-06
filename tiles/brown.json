@@ -2241,10 +2241,10 @@
     "cities": [{ "size": 2 }],
     "track": [
       { "side": 1 },
+      { "side": 2 },
       { "side": 3 },
       { "side": 4 },
-      { "side": 5 },
-      { "side": 6 }
+      { "side": 5 }
     ]
   },
   "616": {
