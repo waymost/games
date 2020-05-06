@@ -2237,34 +2237,14 @@
   },
   "611": {
     "color": "brown",
-    "values": [
-      {
-        "angle": 210,
-        "percent": 0.8,
-        "value": 40
-      }
-    ],
-    "cities": [
-      {
-        "size": 2
-      }
-    ],
+    "values": [{ "angle": 210, "percent": 0.8, "value": 40 }],
+    "cities": [{ "size": 2 }],
     "track": [
-      {
-        "side": 1
-      },
-      {
-        "side": 2
-      },
-      {
-        "side": 3
-      },
-      {
-        "side": 4
-      },
-      {
-        "side": 5
-      }
+      { "side": 1 },
+      { "side": 3 },
+      { "side": 4 },
+      { "side": 5 },
+      { "side": 6 }
     ]
   },
   "616": {
@@ -3478,7 +3458,7 @@
     "values": [{ "angle": 210, "percent": 0.8, "value": 60 }],
     "labels": [{ "label": "Y", "angle": 150, "percent": 0.8 }],
     "cities": [{ "size": 2 }],
-    "track": [{ "type": "straight" }, { "type": "straight", "side": 2 }]
+    "track": [{ "type": "straight" }, { "type": "straight", "side": 3 }]
   },
   "797": {
     "color": "brown",
