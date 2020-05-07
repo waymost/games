@@ -389,12 +389,7 @@
     "values": [{ "angle": 210, "percent": 0.8, "value": 60 }],
     "labels": [{ "label": "Y", "angle": 150, "percent": 0.8 }],
     "cities": [{ "size": 2 }],
-    "track": [
-      { "side": 1 },
-      { "side": 3 },
-      { "side": 4 },
-      { "side": 5 }
-    ]
+    "track": [{ "side": 1 }, { "side": 3 }, { "side": 4 }, { "side": 5 }]
   },
   "62": {
     "color": "brown",
@@ -2144,6 +2139,7 @@
   },
   "775": {
     "color": "brown",
+    "broken": true,
     "rotations": [0],
     "values": [
       {
@@ -2290,6 +2286,7 @@
   },
   "782": {
     "color": "brown",
+    "broken": true,
     "labels": [
       { "label": "£", "angle": 90, "percent": 0.45, "y": -50, "size": 30 }
     ],
@@ -2306,6 +2303,7 @@
   },
   "783": {
     "color": "brown",
+    "broken": true,
     "labels": [
       { "label": "£", "angle": 90, "percent": 0.45, "y": -50, "size": 30 }
     ],
@@ -2322,6 +2320,7 @@
   },
   "784": {
     "color": "brown",
+    "broken": true,
     "labels": [
       { "label": "£", "angle": 90, "percent": 0.45, "y": -50, "size": 30 }
     ],
@@ -2338,6 +2337,7 @@
   },
   "785": {
     "color": "brown",
+    "broken": true,
     "labels": [
       { "label": "£", "angle": 90, "percent": 0.45, "y": -50, "size": 30 }
     ],
@@ -2362,6 +2362,7 @@
   },
   "789": {
     "color": "brown",
+    "broken": true,
     "rotations": [0],
     "labels": [
       { "label": "£", "angle": 270, "percent": 0.333, "y": 50, "size": 30 },
@@ -2438,12 +2439,7 @@
     "values": [{ "angle": 210, "percent": 0.8, "value": 60 }],
     "labels": [{ "label": "Y", "angle": 150, "percent": 0.8 }],
     "cities": [{ "size": 2 }],
-    "track": [
-      { "side": 1 },
-      { "side": 2 },
-      { "side": 3 },
-      { "side": 4 }
-    ]
+    "track": [{ "side": 1 }, { "side": 2 }, { "side": 3 }, { "side": 4 }]
   },
   "804": {
     "color": "brown",
@@ -2653,6 +2649,7 @@
   },
   "485|a": {
     "color": "brown",
+    "broken": true,
     "group": "485",
     "mask": false,
     "rotation": 60,
@@ -2690,6 +2687,7 @@
   },
   "485|b": {
     "color": "brown",
+    "broken": true,
     "group": "485",
     "mask": false,
     "rotation": 60,
@@ -2711,6 +2709,7 @@
   },
   "486|a": {
     "color": "brown",
+    "broken": true,
     "group": "486",
     "mask": false,
     "rotation": 60,
@@ -2748,6 +2747,7 @@
   },
   "486|b": {
     "color": "brown",
+    "broken": true,
     "group": "486",
     "mask": false,
     "rotation": 60,

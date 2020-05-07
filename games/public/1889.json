@@ -455,7 +455,7 @@
       "name": "Awa Railroad",
       "abbrev": "AR",
       "logo": "1889/AR",
-      "color": "red"
+      "color": "black"
     },
     {
       "name": "Iyo Railway",
@@ -467,26 +467,26 @@
       "name": "Sanuki Railway",
       "abbrev": "SR",
       "logo": "1889/SR",
-      "color": "blue"
+      "color": "brightGreen"
     },
     {
       "name": "Takamatsu & Kotohira Electric Railway",
       "abbrev": "KO",
       "logo": "1889/KO",
-      "color": "pink"
+      "color": "red"
     },
     {
       "name": "Tosa Electric Railway",
       "abbrev": "TR",
       "logo": "1889/TR",
-      "color": "green",
+      "color": "turquoise",
       "tokens": "three"
     },
     {
       "name": "Tosa Kuroshio Railway",
       "abbrev": "KU",
       "logo": "1889/KU",
-      "color": "purple",
+      "color": "blue",
       "tokens": "one"
     },
     {
@@ -502,12 +502,14 @@
       "name": "2",
       "limit": "4",
       "number": "6",
+      "rounds": 1,
       "tiles": "yellow"
     },
     {
       "name": "3",
       "limit": "4",
       "number": "5",
+      "rounds": 2,
       "tiles": "green",
       "notes": "Private companies can be bought"
     },
@@ -516,12 +518,14 @@
       "rust": "2",
       "limit": "3",
       "number": "4",
+      "rounds": 2,
       "tiles": "green"
     },
     {
       "name": "5",
       "limit": "2",
       "number": "3",
+      "rounds": 3,
       "tiles": "brown",
       "notes": "Private companies close"
     },
@@ -530,6 +534,7 @@
       "limit": "2",
       "number": "2",
       "rust": "3",
+      "rounds": 3,
       "tiles": "brown",
       "notes": "D Trains available for purchase"
     },
@@ -538,6 +543,7 @@
       "limit": "2",
       "number": "∞",
       "rust": "4",
+      "rounds": 3,
       "tiles": "brown"
     }
   ],
@@ -582,13 +588,13 @@
       "price": 80,
       "revenue": 20,
       "token": { "color": "orange", "icon": "train", "iconColor": "orange" },
-      "players": "Players: 3+"
+      "minPlayers": 3
     },
     {
       "name": "Uno-Takamatsu Ferry",
       "price": 150,
       "revenue": [30, 50],
-      "players": "Players: 4+",
+      "minPlayers": 4,
       "icon": "boat",
       "description": "Does not close while owned by a player. If owned by a player when the first 5-train is purchased it may no longer be sold to a public company and the revenue is increased to 50."
     }

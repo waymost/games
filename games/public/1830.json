@@ -255,12 +255,14 @@
       "name": "2",
       "limit": "4",
       "number": "6",
+      "rounds": 1,
       "tiles": "yellow"
     },
     {
       "name": "3",
       "limit": "4",
       "number": "5",
+      "rounds": 2,
       "tiles": "green",
       "notes": "Private companies may be purchased"
     },
@@ -269,12 +271,14 @@
       "rust": "2",
       "limit": "3",
       "number": "4",
+      "rounds": 2,
       "tiles": "green"
     },
     {
       "name": "5",
       "limit": "2",
       "number": "3",
+      "rounds": 3,
       "tiles": "brown",
       "notes": "Private companies are closed"
     },
@@ -283,6 +287,7 @@
       "limit": "2",
       "number": "2",
       "rust": "3",
+      "rounds": 3,
       "tiles": "brown",
       "notes": "D Trains may be purchased"
     },
@@ -291,6 +296,7 @@
       "limit": "2",
       "number": "6",
       "rust": "4",
+      "rounds": 3,
       "tiles": "brown"
     }
   ],
