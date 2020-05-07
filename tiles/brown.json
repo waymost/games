@@ -2409,9 +2409,9 @@
     "color": "brown",
     "rotations": 1,
     "track": [
-      { "type": "straight", "cross": "under" },
+      { "type": "straight", "cross": "top" },
       { "type": "straight", "side": 2, "cross": "over" },
-      { "type": "straight", "side": 3, "cross": "top" }
+      { "type": "straight", "side": 3, "cross": "under" }
     ]
   },
   "801": {
