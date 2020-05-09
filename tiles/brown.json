@@ -638,7 +638,8 @@
     "color": "brown",
     "track": [
       { "side": 1, "gauge": "double" },
-      { "side": 3, "gauge": "double", "type": "lawson" },
+      { "side": 3, "gauge": "double" },
+      { "side": 5, "gauge": "double" },
       { "side": 4, "gauge": "double" }
     ]
   },
@@ -2404,9 +2405,11 @@
   "798": {
     "color": "brown",
     "rotations": 1,
-    "track": [{ "type": "straight", "cross": "over" },
-              { "type": "straight", "side": 2, "cross": "under" },
-              { "type": "straight", "side": 3, "cross": "bottom" }]
+    "track": [
+      { "type": "straight", "cross": "over" },
+      { "type": "straight", "side": 2, "cross": "under" },
+      { "type": "straight", "side": 3, "cross": "bottom" }
+    ]
   },
   "801": {
     "color": "brown",

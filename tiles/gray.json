@@ -510,11 +510,11 @@
     "color": "gray",
     "track": [
       { "type": "straight", "side": 1 },
-      { "type": "gentle", "side": 4, "cross": "under" },
-      { "type": "gentle", "side": 5, "cross": "over" },
-      { "type": "sharp", "side": 4 },
-      { "type": "sharp", "side": 5 },
-      { "type": "sharp", "side": 6 }
+      { "type": "gentle", "side": 2, "cross": "under" },
+      { "type": "gentle", "side": 1, "cross": "over" },
+      { "type": "sharp", "side": 1 },
+      { "type": "sharp", "side": 2 },
+      { "type": "sharp", "side": 3 }
     ]
   },
   "455": {

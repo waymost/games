@@ -385,7 +385,7 @@
   },
   "80": {
     "color": "green",
-    "track": [{ "side": 1, "type": "lawson" }, { "side": 2 }]
+    "track": [{ "side": 1 }, { "side": 2 }, { "side": 3 }]
   },
   "81": {
     "color": "green",
