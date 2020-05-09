@@ -1,8 +1,8 @@
 {
   "48": {
     "color": "gray",
-    "values": [{ "value": 100 }],
-    "names": [{ "percent": 0.35, "name": "London", "fontSize": 12 }],
+    "values": [{  "angle": 180 , "percent": 0.2, "value": 100 }],
+    "names": [{ "percent": 0.2, "name": "London", "fontSize": 12 }],
     "cities": [
       { "percent": 0.8 },
       { "angle": 60, "percent": 0.8 },
@@ -14,9 +14,9 @@
   },
   "49": {
     "color": "gray",
-    "labels": [{ "label": "L", "angle": 150, "percent": 0.85 }],
-    "values": [{ "angle": 210, "percent": 0.85, "value": 70 }],
-    "cities": [{ "size": 3, "percent": 0.05 }],
+    "labels": [{ "label": "L", "angle": 90, "percent": 0.8 }],
+    "values": [{ "angle": 210, "percent": 0.8, "value": 70 }],
+    "cities": [{ "size": 3 }],
     "track": [{ "side": 1 }, { "side": 2 }, { "side": 3 }]
   },
   "50": {
@@ -71,15 +71,15 @@
   },
   "110": {
     "color": "gray",
-    "values": [{ "value": 100, "angle": 143, "percent": 0.2 }],
-    "labels": [{ "label": "CP", "angle": 323, "percent": 0.25 }],
+    "values": [{ "value": 100, "angle": 180, "percent": 0.2 }],
+    "labels": [{ "label": "CP", "percent": 0.2 }],
     "cities": [
-      { "angle": 353, "percent": 0.8 },
-      { "angle": 53, "percent": 0.8 },
-      { "angle": 113, "percent": 0.8 },
-      { "angle": 173, "percent": 0.8 },
-      { "angle": 233, "percent": 0.8 },
-      { "angle": 293, "percent": 0.8 }
+      { "percent": 0.8 },
+      { "angle": 60, "percent": 0.8 },
+      { "angle": 120, "percent": 0.8 },
+      { "angle": 180, "percent": 0.8 },
+      { "angle": 240, "percent": 0.8 },
+      { "angle": 300, "percent": 0.8 }
     ],
     "track": [
       { "side": 1, "gauge": "double", "type": "stop" },
@@ -92,8 +92,8 @@
   },
   "111": {
     "color": "gray",
-    "values": [{ "value": 70, "angle": 210, "percent": 0.9 }],
-    "labels": [{ "label": "BM", "size": 18, "angle": 150, "percent": 0.9 }],
+    "values": [{ "value": 70, "angle": 210, "percent": 0.8 }],
+    "labels": [{ "label": "BM", "size": 18, "angle": 90, "percent": 0.8 }],
     "cities": [{ "size": 3 }],
     "track": [
       { "side": 1, "gauge": "double" },
@@ -155,78 +155,27 @@
   },
   "123": {
     "color": "gray",
-    "labels": [
-      {
-        "label": "H",
-        "angle": 270,
-        "percent": 0.87
-      }
-    ],
-    "values": [
-      {
-        "angle": 210,
-        "percent": 0.87,
-        "value": 100
-      }
-    ],
-    "cities": [
-      {
-        "size": 3,
-        "rotation": 180
-      }
-    ],
+    "labels": [{ "label": "H", "angle": 90, "percent": 0.8 }],
+    "values": [{ "angle": 210, "percent": 0.8, "value": 100 }],
+    "cities": [{ "size": 3 }],
     "track": [
-      {
-        "side": 1
-      },
-      {
-        "side": 2
-      },
-      {
-        "side": 3
-      },
-      {
-        "side": 4
-      },
-      {
-        "side": 5
-      }
+      { "side": 1 },
+      { "side": 2 },
+      { "side": 3 },
+      { "side": 4 },
+      { "side": 5 }
     ]
   },
   "124": {
     "color": "gray",
-    "labels": [
-      {
-        "label": "T",
-        "angle": 270,
-        "percent": 0.87
-      }
-    ],
-    "values": [
-      {
-        "angle": 210,
-        "percent": 0.87,
-        "value": 100
-      }
-    ],
-    "cities": [
-      {
-        "size": 4
-      }
-    ],
+    "labels": [{ "label": "T", "angle": 90, "percent": 0.9 }],
+    "values": [{ "angle": 270, "percent": 0.9, "value": 100 }],
+    "cities": [{ "size": 4 }],
     "track": [
-      {
-        "side": 1
-      },
-      {
-        "side": 2
-      },
-      {
-        "side": 3
-      },
-      {
-        "side": 4
-      }
+      { "side": 1 },
+      { "side": 2 },
+      { "side": 3 },
+      { "side": 4 }
     ]
   },
   "131": {
@@ -244,9 +193,9 @@
   },
   "134": {
     "color": "gray",
-    "labels": [{ "label": "M", "angle": 270, "percent": 0.82 }],
-    "values": [{ "angle": 150, "percent": 0.82, "value": 100 }],
-    "cities": [{ "size": 3, "rotate": 30, "rotation": 180 }],
+    "labels": [{ "label": "M", "angle": 90, "percent": 0.8 }],
+    "values": [{ "angle": 210, "percent": 0.8, "value": 100 }],
+    "cities": [{ "size": 3 }],
     "track": [{ "side": 1 }, { "side": 2 }, { "side": 3 }]
   },
   "136": {
@@ -310,8 +259,8 @@
   "171": {
     "color": "gray",
     "rotations": 1,
-    "cities": [{ "size": 3, "rotate": 30 }],
-    "values": [{ "angle": 150, "percent": 0.82, "value": 60 }],
+    "cities": [{ "size": 3 }],
+    "values": [{ "angle": 210, "percent": 0.8, "value": 60 }],
     "track": [
       { "side": 1 },
       { "side": 2 },
@@ -359,50 +308,25 @@
   },
   "240": {
     "color": "gray",
-    "values": [
-      {
-        "angle": 150,
-        "percent": 0.82,
-        "value": 80
-      }
-    ],
-    "labels": [
-      {
-        "label": "K",
-        "angle": 270,
-        "percent": 0.82
-      }
-    ],
-    "cities": [
-      {
-        "size": 3,
-        "rotation": 30
-      }
-    ],
+    "values": [{ "angle": 210, "percent": 0.8, "value": 80 }],
+    "labels": [{ "label": "K", "angle": 90, "percent": 0.8 }],
+    "cities": [{ "size": 3 }],
     "track": [
-      {
-        "side": 1
-      },
-      {
-        "side": 2
-      },
-      {
-        "side": 3
-      },
-      {
-        "side": 4
-      }
+      { "side": 1 },
+      { "side": 2 },
+      { "side": 3 },
+      { "side": 4 }
     ]
   },
   "232": {
     "color": "gray",
-    "values": [{ "value": 100, "angle": 143, "percent": 0.2 }],
-    "labels": [{ "label": "C", "angle": 323, "percent": 0.25 }],
+    "values": [{ "value": 100, "angle": 180, "percent": 0.2 }],
+    "labels": [{ "label": "C", "percent": 0.2 }],
     "cities": [
-      { "angle": 7, "percent": 0.8 },
-      { "angle": 67, "percent": 0.8 },
-      { "angle": 127, "percent": 0.8 },
-      { "angle": 187, "percent": 0.8 }
+      { "percent": 0.8 },
+      { "angle": 60, "percent": 0.8 },
+      { "angle": 120, "percent": 0.8 },
+      { "angle": 180, "percent": 0.8 }
     ],
     "track": [
       { "side": 1, "type": "stop" },
@@ -440,9 +364,9 @@
   },
   "290": {
     "color": "gray",
-    "cities": [{ "size": 3, "rotate": 30 }],
-    "values": [{ "angle": 150, "percent": 0.82, "value": 70 }],
-    "labels": [{ "label": "Z", "angle": 270, "percent": 0.82 }],
+    "cities": [{ "size": 3 }],
+    "values": [{ "angle": 210, "percent": 0.8, "value": 70 }],
+    "labels": [{ "label": "Z", "angle": 90, "percent": 0.8 }],
     "track": [
       { "side": 1 },
       { "side": 2 },
@@ -471,9 +395,9 @@
   "446": {
     "color": "gray",
     "rotations": 1,
-    "values": [{ "angle": 150, "percent": 0.82, "value": 70 }],
-    "labels": [{ "label": "B", "angle": 270, "percent": 0.82 }],
-    "cities": [{ "size": 3, "rotate": 30 }],
+    "values": [{ "angle": 210, "percent": 0.8, "value": 70 }],
+    "labels": [{ "label": "B", "angle": 90, "percent": 0.8 }],
+    "cities": [{ "size": 3 }],
     "track": [
       { "side": 1 },
       { "side": 2 },
@@ -520,8 +444,8 @@
   "455": {
     "color": "gray",
     "rotations": 1,
-    "cities": [{ "size": 3, "rotate": 30 }],
-    "values": [{ "angle": 150, "percent": 0.82, "value": 50 }],
+    "cities": [{ "size": 3 }],
+    "values": [{ "angle": 210, "percent": 0.8, "value": 50 }],
     "track": [
       { "side": 1 },
       { "side": 2 },
@@ -548,8 +472,8 @@
   "513": {
     "color": "gray",
     "rotations": 1,
-    "cities": [{ "size": 3, "rotate": 30 }],
-    "values": [{ "angle": 150, "percent": 0.82, "value": 60 }],
+    "cities": [{ "size": 3 }],
+    "values": [{ "angle": 210, "percent": 0.82, "value": 60 }],
     "track": [
       { "side": 1 },
       { "side": 2 },
@@ -561,15 +485,15 @@
   },
   "516": {
     "color": "gray",
-    "values": [{ "value": 120, "angle": 143, "percent": 0.2 }],
-    "labels": [{ "label": "P", "angle": 323, "percent": 0.25 }],
+    "values": [{ "value": 120, "angle": 180, "percent": 0.2 }],
+    "labels": [{ "label": "P", "percent": 0.2 }],
     "cities": [
-      { "angle": 7, "percent": 0.8 },
-      { "angle": 67, "percent": 0.8 },
-      { "angle": 127, "percent": 0.8 },
-      { "angle": 187, "percent": 0.8 },
-      { "angle": 247, "percent": 0.8 },
-      { "angle": 307, "percent": 0.8 }
+      { "percent": 0.8 },
+      { "angle": 60, "percent": 0.8 },
+      { "angle": 120, "percent": 0.8 },
+      { "angle": 180, "percent": 0.8 },
+      { "angle": 240, "percent": 0.8 },
+      { "angle": 300, "percent": 0.8 }
     ],
     "track": [
       { "type": "stop", "side": 1 },
@@ -596,8 +520,8 @@
   },
   "597": {
     "color": "gray",
-    "values": [{ "angle": 150, "percent": 0.82, "value": 80 }],
-    "cities": [{ "size": 3, "rotation": 30 }],
+    "values": [{ "angle": 210, "percent": 0.8, "value": 80 }],
+    "cities": [{ "size": 3 }],
     "track": [
       { "side": 1 },
       { "side": 2 },
@@ -609,7 +533,7 @@
   },
   "639": {
     "color": "gray",
-    "values": [{ "angle": 270, "percent": 0.87, "value": 100 }],
+    "values": [{ "angle": 270, "percent": 0.9, "value": 100 }],
     "labels": [{ "label": "M", "angle": 90, "percent": 0.9 }],
     "cities": [
       { "size": 4, "companies": [{ "label": "CN", "color": "white" }] }
@@ -740,16 +664,16 @@
   },
   "903": {
     "color": "gray",
-    "values": [{ "value": 60, "angle": 150, "percent": 0.82 }],
-    "labels": [{ "label": "L", "angle": 270, "percent": 0.82 }],
-    "cities": [{ "size": 3, "rotate": 30 }],
+    "values": [{ "value": 60, "angle": 210, "percent": 0.8 }],
+    "labels": [{ "label": "L", "angle": 90, "percent": 0.8 }],
+    "cities": [{ "size": 3 }],
     "track": [{ "side": 1 }, { "side": 2 }, { "side": 3 }, { "side": 4 }]
   },
   "906": {
     "color": "gray",
-    "values": [{ "value": 60, "angle": 150, "percent": 0.82 }],
-    "labels": [{ "label": "B", "angle": 270, "percent": 0.82 }],
-    "cities": [{ "size": 3, "rotate": 30 }],
+    "values": [{ "value": 60, "angle": 210, "percent": 0.8 }],
+    "labels": [{ "label": "B", "angle": 90, "percent": 0.8 }],
+    "cities": [{ "size": 3 }],
     "track": [
       { "side": 1 },
       { "side": 2 },
@@ -761,8 +685,8 @@
   },
   "910": {
     "color": "gray",
-    "values": [{ "value": 60, "angle": 270, "percent": 0.88 }],
-    "labels": [{ "label": "Z", "angle": 90, "percent": 0.88 }],
+    "values": [{ "value": 60, "angle": 270, "percent": 0.9 }],
+    "labels": [{ "label": "Z", "angle": 90, "percent": 0.9 }],
     "cities": [{ "size": 4 }],
     "track": [
       { "side": 1 },
@@ -775,7 +699,7 @@
   "912": {
     "color": "gray",
     "centerTowns": [{}],
-    "values": [{ "value": 10, "angle": 150, "percent": 0.8 }],
+    "values": [{ "value": 10, "angle": 210, "percent": 0.8 }],
     "track": [
       { "side": 1 },
       { "side": 2 },
@@ -787,8 +711,8 @@
   },
   "915": {
     "color": "gray",
-    "values": [{ "angle": 150, "percent": 0.82, "value": 50 }],
-    "cities": [{ "size": 3, "rotation": 30 }],
+    "values": [{ "angle": 210, "percent": 0.8, "value": 50 }],
+    "cities": [{ "size": 3 }],
     "track": [
       { "side": 1 },
       { "side": 2 },
@@ -799,8 +723,8 @@
   },
   "988": {
     "color": "gray",
-    "values": [{ "angle": 150, "percent": 0.82, "value": 50 }],
-    "cities": [{ "size": 3, "rotate": 30 }],
+    "values": [{ "angle": 210, "percent": 0.8, "value": 50 }],
+    "cities": [{ "size": 3 }],
     "track": [
       { "gauge": "narrow", "side": 1 },
       { "gauge": "narrow", "side": 2 },
@@ -812,8 +736,8 @@
   "989": {
     "color": "gray",
     "group": "offboard",
-    "values": [{ "angle": 150, "percent": 0.82, "value": 70 }],
-    "cities": [{ "size": 3, "rotate": 30 }],
+    "values": [{ "angle": 210, "percent": 0.8, "value": 70 }],
+    "cities": [{ "size": 3 }],
     "borders": [
       { "side": 1, "color": "offboard" },
       { "side": 2, "color": "offboard" },
@@ -834,9 +758,9 @@
     "color": "gray",
     "group": "offboard",
     "rotations": 1,
-    "labels": [{ "label": "B", "angle": 270, "percent": 0.82 }],
-    "values": [{ "angle": 150, "percent": 0.82, "value": 100 }],
-    "cities": [{ "size": 3, "rotate": 30 }],
+    "labels": [{ "label": "B", "angle": 90, "percent": 0.8 }],
+    "values": [{ "angle": 210, "percent": 0.8, "value": 100 }],
+    "cities": [{ "size": 3 }],
     "borders": [
       { "side": 1, "color": "offboard" },
       { "side": 2, "color": "offboard" },
@@ -885,8 +809,8 @@
   "1168": {
     "color": "gray",
     "rotations": [180],
-    "values": [{ "angle": 150, "percent": 0.82, "value": 60 }],
-    "cities": [{ "size": 3, "rotate": 30 }],
+    "values": [{ "angle": 210, "percent": 0.8, "value": 60 }],
+    "cities": [{ "size": 3 }],
     "track": [{ "side": 1 }, { "side": 2 }, { "side": 3 }, { "side": 4 }]
   },
   "1200": {
