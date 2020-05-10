@@ -353,9 +353,7 @@
   },
   "54": {
     "color": "green",
-    "values": [
-      { "angle": 270, "percent": 0.35, "value": 60 }
-    ],
+    "values": [{ "angle": 270, "percent": 0.35, "value": 60 }],
     "labels": [{ "label": "NY", "size": 24, "angle": 90, "percent": 0.8 }],
     "cities": [
       { "angle": 30, "percent": 0.5 },
@@ -807,9 +805,7 @@
   },
   "120": {
     "color": "green",
-    "values": [
-      { "angle": 270, "percent": 0.35, "value": 60 }
-    ],
+    "values": [{ "angle": 270, "percent": 0.35, "value": 60 }],
     "labels": [{ "label": "T", "angle": 90, "percent": 0.8 }],
     "cities": [
       { "angle": 30, "percent": 0.5 },
@@ -926,11 +922,11 @@
   },
   "233": {
     "color": "green",
-    "track": [{ "side": 1, "type": "straight", "gauge": "double" }]
+    "track": [{ "side": 1, "type": "straight", "gauge": "dual" }]
   },
   "234": {
     "color": "green",
-    "track": [{ "side": 1, "type": "sharp", "gauge": "double" }]
+    "track": [{ "side": 1, "type": "sharp", "gauge": "dual" }]
   },
   "236": {
     "color": "green",
@@ -1072,9 +1068,7 @@
   "457": {
     "color": "green",
     "cities": [{ "percent": 0.5 }, { "percent": 0.5, "angle": 180 }],
-    "values": [
-      { "value": 20, "angle": 270, "percent": 0.4 }
-    ],
+    "values": [{ "value": 20, "angle": 270, "percent": 0.4 }],
     "track": [
       { "type": "sharp", "side": 1 },
       { "type": "gentle", "side": 2, "cross": "under" },
@@ -2824,7 +2818,7 @@
     ],
     "labels": [{ "label": "V", "angle": 270, "percent": 0.667 }],
     "cities": [
-      { "angle": 150, "percent": 0.5},
+      { "angle": 150, "percent": 0.5 },
       { "angle": 30, "percent": 0.5 }
     ],
     "track": [
@@ -2962,11 +2956,8 @@
     "color": "green",
     "rotations": 6,
     "values": [{ "angle": 210, "percent": 0.8, "value": 60 }],
-    "labels": [
-      { "label": "N", "angle": 145, "percent": 0.85 }
-    ],
-    "cities": [ { "size": 3 }
-    ],
+    "labels": [{ "label": "N", "angle": 145, "percent": 0.85 }],
+    "cities": [{ "size": 3 }],
     "track": [
       { "side": 1 },
       { "side": 2 },

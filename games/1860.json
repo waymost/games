@@ -434,7 +434,7 @@
   "stock": {
     "type": "1Diag",
     "par": {
-      "type": "double",
+      "type": "dual",
       "color": "mountain",
       "values": [
         {

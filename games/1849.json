@@ -807,7 +807,7 @@
         "track": [
           {
             "type": "sharp",
-            "gauge": "double",
+            "gauge": "dual",
             "side": 1
           }
         ],
@@ -893,11 +893,11 @@
         "track": [
           {
             "side": 1,
-            "gauge": "double"
+            "gauge": "dual"
           },
           {
             "side": 6,
-            "gauge": "double"
+            "gauge": "dual"
           }
         ],
         "hexes": ["A4"]
@@ -1028,7 +1028,7 @@
         "track": [
           {
             "side": 4,
-            "gauge": "double"
+            "gauge": "dual"
           }
         ],
         "hexes": ["O4"]
@@ -1102,19 +1102,19 @@
         "track": [
           {
             "side": 1,
-            "gauge": "double"
+            "gauge": "dual"
           },
           {
             "side": 4,
-            "gauge": "double"
+            "gauge": "dual"
           },
           {
             "side": 5,
-            "gauge": "double"
+            "gauge": "dual"
           },
           {
             "side": 6,
-            "gauge": "double"
+            "gauge": "dual"
           }
         ],
         "hexes": ["A6"]
@@ -1500,7 +1500,7 @@
         "track": [
           {
             "side": 2,
-            "gauge": "double"
+            "gauge": "dual"
           },
           {
             "side": 3

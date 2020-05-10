@@ -1,7 +1,7 @@
 {
   "32": {
     "color": "brown",
-    "values": [{ "angle": 180 , "percent": 0.2, "value": 70 }],
+    "values": [{ "angle": 180, "percent": 0.2, "value": 70 }],
     "names": [{ "percent": 0.2, "name": "London", "fontSize": 12 }],
     "cities": [
       { "percent": 0.8 },
@@ -583,12 +583,12 @@
     "values": [{ "value": 30, "angle": 210, "percent": 0.8 }],
     "cities": [{ "size": 2 }],
     "track": [
-      { "side": 1, "gauge": "double" },
-      { "side": 2, "gauge": "double" },
-      { "side": 3, "gauge": "double" },
-      { "side": 4, "gauge": "double" },
-      { "side": 5, "gauge": "double" },
-      { "side": 6, "gauge": "double" }
+      { "side": 1, "gauge": "dual" },
+      { "side": 2, "gauge": "dual" },
+      { "side": 3, "gauge": "dual" },
+      { "side": 4, "gauge": "dual" },
+      { "side": 5, "gauge": "dual" },
+      { "side": 6, "gauge": "dual" }
     ]
   },
   "103": {
@@ -596,10 +596,10 @@
     "values": [{ "value": 40, "angle": 210, "percent": 0.8 }],
     "cities": [{ "size": 2 }],
     "track": [
-      { "side": 1, "gauge": "double" },
-      { "side": 3, "gauge": "double" },
-      { "side": 4, "gauge": "double" },
-      { "side": 5, "gauge": "double" }
+      { "side": 1, "gauge": "dual" },
+      { "side": 3, "gauge": "dual" },
+      { "side": 4, "gauge": "dual" },
+      { "side": 5, "gauge": "dual" }
     ]
   },
   "104": {
@@ -615,12 +615,12 @@
       { "angle": 300, "percent": 0.8 }
     ],
     "track": [
-      { "side": 1, "gauge": "double", "type": "stop" },
-      { "side": 2, "gauge": "double", "type": "stop" },
-      { "side": 3, "gauge": "double", "type": "stop" },
-      { "side": 4, "gauge": "double", "type": "stop" },
-      { "side": 5, "gauge": "double", "type": "stop" },
-      { "side": 6, "gauge": "double", "type": "stop" }
+      { "side": 1, "gauge": "dual", "type": "stop" },
+      { "side": 2, "gauge": "dual", "type": "stop" },
+      { "side": 3, "gauge": "dual", "type": "stop" },
+      { "side": 4, "gauge": "dual", "type": "stop" },
+      { "side": 5, "gauge": "dual", "type": "stop" },
+      { "side": 6, "gauge": "dual", "type": "stop" }
     ]
   },
   "105": {
@@ -629,27 +629,27 @@
     "labels": [{ "label": "BM", "size": 18, "angle": 90, "percent": 0.8 }],
     "cities": [{ "size": 3 }],
     "track": [
-      { "side": 1, "gauge": "double" },
-      { "side": 2, "gauge": "double" },
-      { "side": 3, "gauge": "double" }
+      { "side": 1, "gauge": "dual" },
+      { "side": 2, "gauge": "dual" },
+      { "side": 3, "gauge": "dual" }
     ]
   },
   "106": {
     "color": "brown",
     "track": [
-      { "side": 1, "gauge": "double" },
-      { "side": 3, "gauge": "double" },
-      { "side": 5, "gauge": "double" },
-      { "side": 4, "gauge": "double" }
+      { "side": 1, "gauge": "dual" },
+      { "side": 3, "gauge": "dual" },
+      { "side": 5, "gauge": "dual" },
+      { "side": 4, "gauge": "dual" }
     ]
   },
   "107": {
     "color": "brown",
     "track": [
-      { "side": 1, "gauge": "double" },
-      { "side": 2, "gauge": "double" },
-      { "side": 4, "gauge": "double" },
-      { "side": 5, "gauge": "double" }
+      { "side": 1, "gauge": "dual" },
+      { "side": 2, "gauge": "dual" },
+      { "side": 4, "gauge": "dual" },
+      { "side": 5, "gauge": "dual" }
     ]
   },
   "118": {
@@ -1058,12 +1058,7 @@
     "values": [{ "angle": 210, "percent": 0.8, "value": 60 }],
     "labels": [{ "label": "K", "angle": 90, "percent": 0.8 }],
     "cities": [{ "size": 3 }],
-    "track": [
-      { "side": 1 },
-      { "side": 2 },
-      { "side": 3 },
-      { "side": 4 }
-    ]
+    "track": [{ "side": 1 }, { "side": 2 }, { "side": 3 }, { "side": 4 }]
   },
   "297": {
     "color": "brown",
@@ -1671,10 +1666,10 @@
     "labels": [{ "label": "P", "angle": 150, "percent": 0.8 }],
     "cities": [{ "size": 2 }],
     "track": [
-      { "side": 1, "gauge": "double" },
-      { "side": 2, "gauge": "double" },
-      { "side": 3, "gauge": "double" },
-      { "side": 4, "gauge": "double" },
+      { "side": 1, "gauge": "dual" },
+      { "side": 2, "gauge": "dual" },
+      { "side": 3, "gauge": "dual" },
+      { "side": 4, "gauge": "dual" },
       { "side": 5 }
     ]
   },
@@ -1684,9 +1679,9 @@
     "labels": [{ "label": "C", "angle": 150, "percent": 0.8 }],
     "cities": [{ "size": 2 }],
     "track": [
-      { "side": 3, "gauge": "double" },
+      { "side": 3, "gauge": "dual" },
       { "side": 1 },
-      { "side": 5, "gauge": "double" },
+      { "side": 5, "gauge": "dual" },
       { "side": 4 }
     ]
   },
@@ -1699,7 +1694,7 @@
       { "side": 3 },
       { "side": 4, "gauge": "narrow" },
       { "side": 5 },
-      { "side": 1, "gauge": "double" }
+      { "side": 1, "gauge": "dual" }
     ]
   },
   "672": {
@@ -1708,10 +1703,10 @@
     "values": [{ "angle": 210, "percent": 0.8, "value": 40 }],
     "cities": [{ "size": 2 }],
     "track": [
-      { "side": 1, "gauge": "double" },
-      { "side": 2, "gauge": "double" },
-      { "side": 4, "gauge": "double" },
-      { "side": 5, "gauge": "double" }
+      { "side": 1, "gauge": "dual" },
+      { "side": 2, "gauge": "dual" },
+      { "side": 4, "gauge": "dual" },
+      { "side": 5, "gauge": "dual" }
     ]
   },
   "673": {
@@ -1719,10 +1714,10 @@
     "values": [{ "angle": 210, "percent": 0.8, "value": 40 }],
     "cities": [{ "size": 2 }],
     "track": [
-      { "side": 1, "gauge": "double" },
-      { "side": 2, "gauge": "double" },
-      { "side": 3, "gauge": "double" },
-      { "side": 4, "gauge": "double" }
+      { "side": 1, "gauge": "dual" },
+      { "side": 2, "gauge": "dual" },
+      { "side": 3, "gauge": "dual" },
+      { "side": 4, "gauge": "dual" }
     ]
   },
   "674": {
@@ -1730,10 +1725,10 @@
     "values": [{ "angle": 210, "percent": 0.8, "value": 40 }],
     "cities": [{ "size": 2 }],
     "track": [
-      { "side": 1, "gauge": "double" },
-      { "side": 3, "gauge": "double" },
-      { "side": 4, "gauge": "double" },
-      { "side": 5, "gauge": "double" }
+      { "side": 1, "gauge": "dual" },
+      { "side": 3, "gauge": "dual" },
+      { "side": 4, "gauge": "dual" },
+      { "side": 5, "gauge": "dual" }
     ]
   },
   "676": {
@@ -1742,8 +1737,8 @@
     "labels": [{ "label": "S", "angle": 150, "percent": 0.8 }],
     "cities": [{ "size": 2 }],
     "track": [
-      { "side": 1, "gauge": "double" },
-      { "side": 2, "gauge": "double" },
+      { "side": 1, "gauge": "dual" },
+      { "side": 2, "gauge": "dual" },
       { "side": 3 }
     ]
   },
@@ -1753,10 +1748,10 @@
     "values": [{ "angle": 210, "percent": 0.8, "value": 20 }],
     "centerTowns": [{}],
     "track": [
-      { "side": 1, "gauge": "double" },
-      { "side": 2, "gauge": "double" },
-      { "side": 4, "gauge": "double" },
-      { "side": 5, "gauge": "double" }
+      { "side": 1, "gauge": "dual" },
+      { "side": 2, "gauge": "dual" },
+      { "side": 4, "gauge": "dual" },
+      { "side": 5, "gauge": "dual" }
     ]
   },
   "697": {
@@ -1764,10 +1759,10 @@
     "values": [{ "angle": 210, "percent": 0.8, "value": 20 }],
     "centerTowns": [{}],
     "track": [
-      { "side": 1, "gauge": "double" },
-      { "side": 2, "gauge": "double" },
-      { "side": 3, "gauge": "double" },
-      { "side": 4, "gauge": "double" }
+      { "side": 1, "gauge": "dual" },
+      { "side": 2, "gauge": "dual" },
+      { "side": 3, "gauge": "dual" },
+      { "side": 4, "gauge": "dual" }
     ]
   },
   "698": {
@@ -1775,10 +1770,10 @@
     "values": [{ "angle": 210, "percent": 0.8, "value": 20 }],
     "centerTowns": [{}],
     "track": [
-      { "side": 1, "gauge": "double" },
-      { "side": 3, "gauge": "double" },
-      { "side": 4, "gauge": "double" },
-      { "side": 5, "gauge": "double" }
+      { "side": 1, "gauge": "dual" },
+      { "side": 3, "gauge": "dual" },
+      { "side": 4, "gauge": "dual" },
+      { "side": 5, "gauge": "dual" }
     ]
   },
   "764": {
@@ -1991,7 +1986,7 @@
       { "angle": 150, "percent": 0.825, "value": 60 },
       { "value": 20, "angle": 25, "percent": 0.75 }
     ],
-    "labels": [{ "label": "N", "angle": 270, "percent": 0.8}],
+    "labels": [{ "label": "N", "angle": 270, "percent": 0.8 }],
     "cities": [
       { "rotation": -30, "size": 2, "angle": 150, "percent": 0.2 },
       { "angle": -30, "percent": 0.6 }
