@@ -571,7 +571,7 @@
       { "angle": 247, "percent": 0.8 },
       { "angle": 307, "percent": 0.8 }
     ],
-    "tracks": [
+    "track": [
       { "type": "stop", "side": 1 },
       { "type": "stop", "side": 2 },
       { "type": "stop", "side": 3 },
